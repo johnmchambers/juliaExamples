@@ -1,0 +1,13 @@
+Package: juliaExamples
+Type: Package
+Title: Examples for the Julia Interface
+Version: 0.5
+Date: 2016-03-31
+Author: John M. Chambers
+Maintainer: John Chambers <jmc@r-project.org>
+Description: Versions of the examples in the XRJulia chapter of "Extending R".
+    Some examples are modified from the simplest versions in the book;
+    for example, to define the proxy function at load time.
+License: GPL (>=2)
+Imports: XRJulia, methods
+LazyData: TRUE
